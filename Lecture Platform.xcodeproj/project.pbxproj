@@ -12,6 +12,12 @@
 		461DCA8E1D2413830076F89D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461DCA8C1D2413830076F89D /* Main.storyboard */; };
 		461DCA901D2413830076F89D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 461DCA8F1D2413830076F89D /* Assets.xcassets */; };
 		461DCA931D2413830076F89D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 461DCA911D2413830076F89D /* LaunchScreen.storyboard */; };
+		461DCA9B1D2491A20076F89D /* android_tutorial.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 461DCA9A1D2491A20076F89D /* android_tutorial.pdf */; };
+		461DCA9D1D24923B0076F89D /* ios_tutorial.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 461DCA9C1D24923B0076F89D /* ios_tutorial.pdf */; };
+		461DCA9F1D24A15E0076F89D /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 461DCA9E1D24A15E0076F89D /* TableViewController.swift */; };
+		461DCAA11D25606C0076F89D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 461DCAA01D25606C0076F89D /* AVFoundation.framework */; };
+		461DCAAC1D2574710076F89D /* android_tutorial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 461DCAAB1D2574710076F89D /* android_tutorial.mp3 */; };
+		461DCAAE1D25748B0076F89D /* ios_tutorial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 461DCAAD1D25748B0076F89D /* ios_tutorial.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		461DCA8F1D2413830076F89D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		461DCA921D2413830076F89D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		461DCA941D2413830076F89D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		461DCA9A1D2491A20076F89D /* android_tutorial.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = android_tutorial.pdf; sourceTree = "<group>"; };
+		461DCA9C1D24923B0076F89D /* ios_tutorial.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = ios_tutorial.pdf; sourceTree = "<group>"; };
+		461DCA9E1D24A15E0076F89D /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		461DCAA01D25606C0076F89D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		461DCAAB1D2574710076F89D /* android_tutorial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = android_tutorial.mp3; sourceTree = "<group>"; };
+		461DCAAD1D25748B0076F89D /* ios_tutorial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ios_tutorial.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				461DCAA11D25606C0076F89D /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -38,6 +51,7 @@
 		461DCA7C1D2413830076F89D = {
 			isa = PBXGroup;
 			children = (
+				461DCAA01D25606C0076F89D /* AVFoundation.framework */,
 				461DCA871D2413830076F89D /* Lecture Platform */,
 				461DCA861D2413830076F89D /* Products */,
 			);
@@ -56,7 +70,12 @@
 			children = (
 				461DCA881D2413830076F89D /* AppDelegate.swift */,
 				461DCA8A1D2413830076F89D /* ViewController.swift */,
+				461DCA9E1D24A15E0076F89D /* TableViewController.swift */,
 				461DCA8C1D2413830076F89D /* Main.storyboard */,
+				461DCAAD1D25748B0076F89D /* ios_tutorial.mp3 */,
+				461DCAAB1D2574710076F89D /* android_tutorial.mp3 */,
+				461DCA9A1D2491A20076F89D /* android_tutorial.pdf */,
+				461DCA9C1D24923B0076F89D /* ios_tutorial.pdf */,
 				461DCA8F1D2413830076F89D /* Assets.xcassets */,
 				461DCA911D2413830076F89D /* LaunchScreen.storyboard */,
 				461DCA941D2413830076F89D /* Info.plist */,
@@ -124,7 +143,11 @@
 			files = (
 				461DCA931D2413830076F89D /* LaunchScreen.storyboard in Resources */,
 				461DCA901D2413830076F89D /* Assets.xcassets in Resources */,
+				461DCA9B1D2491A20076F89D /* android_tutorial.pdf in Resources */,
 				461DCA8E1D2413830076F89D /* Main.storyboard in Resources */,
+				461DCA9D1D24923B0076F89D /* ios_tutorial.pdf in Resources */,
+				461DCAAE1D25748B0076F89D /* ios_tutorial.mp3 in Resources */,
+				461DCAAC1D2574710076F89D /* android_tutorial.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +159,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				461DCA8B1D2413830076F89D /* ViewController.swift in Sources */,
+				461DCA9F1D24A15E0076F89D /* TableViewController.swift in Sources */,
 				461DCA891D2413830076F89D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
